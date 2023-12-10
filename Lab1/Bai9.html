@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 9</title>
+</head>
+<body> 
+    <form style="color: green; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;margin-left: 200px; margin-right: 200px;font-size: 1.1rem;">
+        <p align="center"><strong>ĐĂNG KÝ THÔNG TIN VIỆC LÀM</strong></p>
+        <div align="left" style="background-color: green; color: white; padding-left: 3px;">
+            Thông tin cá nhân
+        </div>
+        <table> 
+            <tr> 
+                <td align="right"  width="200px"><label for="hoten"><font color="red">* </font>Họ & tên:</label></td>
+                <td><input type="text" name="hoten" id="hoten" style="width: 250px; border-color: green;"></td>
+            </tr>
+            <tr> 
+                <td align="right"><label for="ngaysinh"><font color="red">* </font>Ngày tháng năm sinh:</label></td>
+                <td><input type="text" name="ngaysinh" id="ngaysinh" style="width: 150px;border-color: green;"></td>
+            </tr>
+            <tr> 
+                <td align="right"><label for="gioitinh">Giới tính:</label></td>
+                <td><select name="gioitinh" id="gioitinh" style="border-color: green; width: 60px;">
+                        <option value="Nam">Nam</option>
+                        <option value="Nữ">Nữ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr> 
+                <td align="right"><label for="honnhan">Tình trạng hôn nhân:</label></td>
+                <td><select name="honnhan" id="honnhan" style="border-color: green; width: 100px;" >
+                        <option value="Độc thân">Độc thân</option>
+                        <option value="Đã kết hôn">Đã kết hôn</option>
+                    </select>
+                </td>
+            </tr>   
+        </table>
+
+        <div align="left" style="background-color: green; color: white; padding-left: 3px;">
+            Thông tin liên lạc
+        </div>
+        <table> 
+            <tr> 
+                <td align="right"  width="200px"><label for="dc"><font color="red">* </font>Địa chỉ:</label></td>
+                <td><input type="text" name="dc" id="dc" style="width: 450px; border-color: green;"></td>
+            </tr>
+            <tr> 
+                <td align="right"><label for="tp"><font color="red">* </font>Tỉnh/Thành phố: </label></td>
+                <td><input type="text" name="tp" id="tp" style="width: 150px;border-color: green;"></td>
+            </tr>
+            <tr> 
+                <td align="right"><label for="sdt">Số điện thoại: </label></td>
+                <td><input type="tel" name="sdt" id="sdt" style="width: 150px;border-color: green;"></td>
+            </tr>
+            <tr> 
+                <td align="right"><label for="dd">Số điện thoại di động: </label></td>
+                <td><input type="tel" name="dd" id="dd" style="width: 150px;border-color: green;"></td>
+            </tr>
+            <tr> 
+                <td align="right"><label for="email"><font color="red">* </font>Email: </label></td>
+                <td><input type="email" name="email" id="email" style="width: 250px;border-color: green;"></td>
+            </tr>
+        </table>
+        
+
+        <div align="left" style="background-color: green; color: white; padding-left: 3px;">
+            Trình độ học vấn
+        </div>
+        <table> 
+            <tr> 
+                <td align="right" width="200px"><label for="hv"><font color="red">* </font>Trình độ học vấn:</label></td>
+                <td><select name="hv" id="hv" style="border-color: green; width: 100px;">
+                    <option value="Chọn">Chọn</option>
+                    <option value="THCS">THCS</option>
+                    <option value="THPT">THPT</option>
+                    <option value="ĐH/CĐ">ĐH/CĐ</option>
+                </select>
+            </td>
+            </tr>
+            <tr> 
+                <td valign="top" align="right"><label for="tthv"><font color="red">* </font>Thông tin về học vấn: </label></td>
+                <td><textarea name="tthv" id="tthv" style="height: 50px; width: 450px; border-color: green;"></textarea></td>
+            </tr>
+            <tr> 
+                <td valign="top" align="right"><label for="nn">Ngoại ngữ: </label></td>
+                <td><textarea name="nn" id="nn" style="height: 40px; width: 450px; border-color: green;"></textarea></td>
+            </tr>
+            <tr> 
+                <td valign="top" align="right"><label for="kn">Ngoại ngữ: </label></td>
+                <td><textarea name="kn" id="kn" style="height: 50px; width: 450px; border-color: green;"></textarea></td>
+            </tr>
+        </table>
+        <div align="left" style="background-color: green; color: white; padding-left: 3px;">
+            Kinh nghiệm làm việc
+        </div>
+        <table> 
+            <tr> 
+                <td align="right" width="200px"><label for="snkn">Số năm kinh nghiệm: </label></td>
+                <td><input type="number" name="snkn" id="snkn" style="width: 150px;border-color: green;"></td>
+            </tr>
+            <tr> 
+                <td valign="top" align="right"><label for="knlv">Kinh nghiệm làm việc: </label></td>
+                <td><textarea name="knlv" id="knlv" style="height: 50px; width: 450px; border-color: green;"></textarea></td>
+            </tr>
+        </table>
+        <div align="left" style="background-color: green; color: white; padding-left: 3px;">
+            Mong muốn của bản thân
+        </div>
+        <table> 
+            <tr> 
+                <td valign="top" align="right" width="200px"><label for="vlmm">Việc làm mong muốn: </label></td>
+                <td><textarea name="vlmm" id="vlmm" style="height: 50px; width: 450px; border-color: green;"></textarea></td>
+            </tr>
+            <tr> 
+                <td align="right"><label for="luong"><font color="red">*</font>Mức lương thỏa thuận: </label></td>
+                <td><input type="number" name="luong" id="luong" style="width: 150px;border-color: green;"> VNĐ</td>
+            </tr>
+           
+            <tr> 
+                <td></td>
+                <td>
+                    <input type="submit" value="Gửi hồ sơ"> 
+                    <input type="reset" value="Xóa Form">
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+</body>
+</html>
